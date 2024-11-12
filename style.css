@@ -7,14 +7,17 @@
 
 body{
     background-image: url(images/background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
     
 
 }
 
 .card{
-    width:90%;
+    width:100%;
     max-width: 470px;
     background:linear-gradient(135deg, #00feba,#5b548a);
     color:#fff;
